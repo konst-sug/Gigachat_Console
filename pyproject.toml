@@ -1,0 +1,22 @@
+[project]
+name = "gigachat-console"
+version = "0.1.0"
+description = "Консольный клиент для GigaChat (запуск: python run.py)"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+
+dependencies = [
+    "gigachat>=0.2.4",
+    "rich>=15.0.0",
+    "inquirerpy>=0.3.4",
+    "python-dotenv>=1.2.4",
+    "pydantic>=2.14.2",
+    "pydantic-settings>=2.16.2",
+    "annotated-types>=0.8.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+

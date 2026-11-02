@@ -1,0 +1,5 @@
+giga_chat_key=tokenfromgigachat
+DOWNLOAD_DIR=/home/user/Downloads/
+WORK_DIR=/home/user/work/
+TOKENS_FILE=tokens.json
+PROMPTS_FILE=prompts.json
