@@ -75,7 +75,7 @@ class ChatWorker:
             self._view_usage()
         action = self.func_menu.get_choice()
         self.last_elapsed = time.monotonic() - start
-        
+        self.history.clear()
         return answer, action
 
 
